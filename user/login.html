@@ -46,6 +46,10 @@
             <a class="tab_cart fa fa-shopping-cart" href="../cart.html"><span>购物车</span></a>
             <a class="tab_user fa fa-user" href="../user/index.html"><span>会员中心</span></a>
         </footer>
+
+
+
+        
     </div>
     <script src="../res/mui/js/mui.min.js"></script>
     <script>
@@ -54,7 +58,7 @@
 
             $.ajax({
                 url : '/api/user/login', 
-                
+
                 type : 'post',
                 data : data,
                 success : function(info){
