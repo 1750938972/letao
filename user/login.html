@@ -53,7 +53,8 @@
             var data = $('.form').serialize();
 
             $.ajax({
-                url : '/api/user/login',
+                url : '/api/user/login', 
+                
                 type : 'post',
                 data : data,
                 success : function(info){
